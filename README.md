@@ -46,7 +46,7 @@ This project involves implementing concurrency control in a web application to h
 
 - __Concurrent HTTP Requests Handling__
   - **Manual Testing:** Send multiple concurrent HTTP requests to the /api/requests endpoint using tools like cURL or Postman. Observe if the server handles the requests concurrently and responds without blocking.
-    **Automated Testing:** Write automated tests using a testing framework like Jest or Mocha. Simulate concurrent requests using libraries like Axios or SuperTest and assert that the server handles them properly.
+  - **Automated Testing:** Write automated tests using a testing framework like Jest or Mocha. Simulate concurrent requests using libraries like Axios or SuperTest and assert that the server handles them properly.
 - __Error Handling__
   - **Manual Testing:** Send requests to the /api/requests endpoint with invalid input parameters or simulate unexpected server errors. Verify that the server responds with the appropriate HTTP status codes (e.g., 500 Internal Server Error) and error messages.
   - **Automated Testing:** Write automated tests to cover different error scenarios by sending requests with invalid parameters or triggering server errors. Assert that the server responds with the expected status codes and error messages.
