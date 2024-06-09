@@ -56,8 +56,8 @@ This project involves implementing concurrency control in a web application to h
    - **Manual Testing:** Send requests to the /api/requests endpoint with invalid input parameters or simulate unexpected server errors. Verify that the server responds with the appropriate HTTP status codes (e.g., 500 Internal Server Error) and error messages.
    - **Automated Testing:** Write automated tests to cover different error scenarios by sending requests with invalid parameters or triggering server errors. Assert that the server responds with the expected status codes and error messages.
 3. __Data Integrity and Avoiding Race Conditions__
-  - **Manual Testing:** Create test cases where multiple concurrent requests access and modify shared resources (e.g., database records). Verify that the data remains consistent and no race conditions occur.
-  - **Automated Testing:** Write automated tests to simulate concurrent access to shared resources and verify data integrity. Use testing frameworks that support concurrency testing and assertions for thread safety.
+   - **Manual Testing:** Create test cases where multiple concurrent requests access and modify shared resources (e.g., database records). Verify that the data remains consistent and no race conditions occur.
+   - **Automated Testing:** Write automated tests to simulate concurrent access to shared resources and verify data integrity. Use testing frameworks that support concurrency testing and assertions for thread safety.
 
 <br/>
 
