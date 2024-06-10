@@ -32,16 +32,6 @@ This project involves implementing concurrency control in a web application to h
 
 <br/>
 
-## Popular Operations
-
-- __Handling Concurrent HTTP Requests__: Implement asynchronous request handling to process multiple HTTP requests concurrently without blocking the server thread pool.
-- __Database Operations__: Use async/await to execute database queries asynchronously, allowing other tasks to continue execution while waiting for the database response.
-- __File I/O__: Utilize threading or async/await to perform file I/O operations concurrently, improving throughput and responsiveness.
-- __Task Parallelism__: Divide complex tasks into smaller units and execute them in parallel using threading or other parallel programming constructs.
-- __Resource Access__: Implement proper synchronization mechanisms to prevent data corruption when multiple threads access shared resources such as database connections or in-memory caches.
-
-<br/>
-
 ## Testing
 
 - __Concurrent HTTP Requests Handling__
